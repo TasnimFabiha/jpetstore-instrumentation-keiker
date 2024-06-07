@@ -1,0 +1,4 @@
+$0;1716270166713063987;1.15.4;KIEKER;MacBook-Pro.local;1;false;0;NANOSECONDS;0
+$1;1716270166750724831;public org.mybatis.jpetstore.service.AccountService.<init>(org.mybatis.jpetstore.mapper.AccountMapper);<no-session-id>;4698521048742625281;1716270166722709579;1716270166748767094;MacBook-Pro.local;0;0
+$1;1716270166995701746;public org.mybatis.jpetstore.service.CatalogService.<init>(org.mybatis.jpetstore.mapper.CategoryMapper, org.mybatis.jpetstore.mapper.ItemMapper, org.mybatis.jpetstore.mapper.ProductMapper);<no-session-id>;4698521048742625282;1716270166995679928;1716270166995695517;MacBook-Pro.local;0;0
+$1;1716270167089941096;public org.mybatis.jpetstore.service.OrderService.<init>(org.mybatis.jpetstore.mapper.ItemMapper, org.mybatis.jpetstore.mapper.OrderMapper, org.mybatis.jpetstore.mapper.SequenceMapper, org.mybatis.jpetstore.mapper.LineItemMapper);<no-session-id>;4698521048742625283;1716270167089927188;1716270167089937485;MacBook-Pro.local;0;0

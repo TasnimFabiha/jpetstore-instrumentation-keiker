@@ -1,0 +1,101 @@
+15:33:29.497 [main] ERROR k.t.t.analysis.TraceAnalysisToolMain - Was passed main parameter '-inputdirs' but no main parameter was defined in your arg class
+15:35:09.914 [main] ERROR k.t.t.analysis.TraceAnalysisToolMain - Was passed main parameter '-inputdirs' but no main parameter was defined in your arg class
+15:36:20.679 [main] ERROR k.t.t.analysis.TraceAnalysisToolMain - Was passed main parameter '-inputdirs' but no main parameter was defined in your arg class
+15:40:47.443 [main] ERROR k.t.t.analysis.TraceAnalysisToolMain - The following option is required: [-o | --outputdir]
+15:41:05.952 [main] ERROR k.t.t.analysis.TraceAnalysisToolMain - Was passed main parameter '-plot-Assembly-Component-Dependency-Graph' but no main parameter was defined in your arg class
+15:41:49.421 [main] INFO  k.t.t.analysis.TraceAnalysisToolMain - Ignoring records before 19700101-000000 (0)
+15:41:49.427 [main] INFO  k.t.t.analysis.TraceAnalysisToolMain - Ignoring records after 2922789940817-071255 (9223372036854775807)
+15:41:49.530 [Thread-2] INFO  k.a.p.r.filesystem.FSDirectoryReader - < Loading /Users/fabiha/Documents/mono2micro/mono2micro/jpet-6-master/account_tracelog/kieker-20240520-233032352-UTC-001.dat
+15:41:49.534 [Thread-1] INFO  kieker.analysis.AnalysisController - Kieker metadata: version='1.14', controllerName='KIEKER', hostname='MacBook-Pro.local', experimentId='1', debugMode='false', timeOffset='0', timeUnit='NANOSECONDS', numberOfRecords='0'
+15:41:49.632 [main] INFO  kieker.analysis.AnalysisController - Terminating analysis.
+15:41:49.633 [main] INFO  k.a.p.r.f.FSReader (FSReader-2) - Shutting down reader.
+15:41:50.150 [main] INFO  k.t.t.analysis.TraceAnalysisToolMain - Saved analysis configuration to file '/Users/fabiha/Documents/mono2micro/mono2micro/jpet-6-master/out/traceAnalysis.kax'
+15:41:50.151 [main] INFO  k.t.t.analysis.TraceAnalysisToolMain - Analysis complete. See 'kieker.log' for details.
+15:44:13.196 [main] INFO  k.t.t.analysis.TraceAnalysisToolMain - Ignoring records before 19700101-000000 (0)
+15:44:13.202 [main] INFO  k.t.t.analysis.TraceAnalysisToolMain - Ignoring records after 2922789940817-071255 (9223372036854775807)
+15:44:13.363 [Thread-2] INFO  k.a.p.r.filesystem.FSDirectoryReader - < Loading /Users/fabiha/Documents/mono2micro/mono2micro/jpet-6-master/account_tracelog/kieker-20240520-233032352-UTC-001.dat
+15:44:13.366 [Thread-1] INFO  kieker.analysis.AnalysisController - Kieker metadata: version='1.14', controllerName='KIEKER', hostname='MacBook-Pro.local', experimentId='1', debugMode='false', timeOffset='0', timeUnit='NANOSECONDS', numberOfRecords='0'
+15:44:13.411 [main] INFO  kieker.analysis.AnalysisController - Terminating analysis.
+15:44:13.412 [main] INFO  k.a.p.r.f.FSReader (FSReader-2) - Shutting down reader.
+15:44:13.863 [main] INFO  k.t.t.analysis.TraceAnalysisToolMain - Saved analysis configuration to file '/Users/fabiha/Documents/mono2micro/mono2micro/jpet-6-master/account_tracelog/traceAnalysis.kax'
+15:44:13.865 [main] INFO  k.t.t.analysis.TraceAnalysisToolMain - Analysis complete. See 'kieker.log' for details.
+15:48:06.461 [main] INFO  k.t.t.analysis.TraceAnalysisToolMain - Ignoring records before 19700101-000000 (0)
+15:48:06.467 [main] INFO  k.t.t.analysis.TraceAnalysisToolMain - Ignoring records after 2922789940817-071255 (9223372036854775807)
+15:48:06.566 [Thread-2] INFO  k.a.p.r.filesystem.FSDirectoryReader - < Loading /Users/fabiha/Documents/mono2micro/mono2micro/jpet-6-master/account_tracelog/kieker-20240520-233032352-UTC-001.dat
+15:48:06.570 [Thread-1] INFO  kieker.analysis.AnalysisController - Kieker metadata: version='1.14', controllerName='KIEKER', hostname='MacBook-Pro.local', experimentId='1', debugMode='false', timeOffset='0', timeUnit='NANOSECONDS', numberOfRecords='0'
+15:48:06.614 [main] INFO  kieker.analysis.AnalysisController - Terminating analysis.
+15:48:06.614 [main] INFO  k.a.p.r.f.FSReader (FSReader-2) - Shutting down reader.
+15:48:07.073 [main] INFO  k.t.t.analysis.TraceAnalysisToolMain - Saved analysis configuration to file '/Users/fabiha/Documents/mono2micro/mono2micro/jpet-6-master/account_tracelog/traceAnalysis.kax'
+15:48:07.075 [main] INFO  k.t.t.analysis.TraceAnalysisToolMain - Analysis complete. See 'kieker.log' for details.
+15:58:15.341 [main] INFO  k.t.t.analysis.TraceAnalysisToolMain - Ignoring records before 19700101-000000 (0)
+15:58:15.347 [main] INFO  k.t.t.analysis.TraceAnalysisToolMain - Ignoring records after 2922789940817-071255 (9223372036854775807)
+15:58:15.477 [Thread-1] INFO  k.a.p.r.filesystem.FSDirectoryReader - < Loading /Users/fabiha/Documents/mono2micro/mono2micro/jpet-6-master/account_tracelog/kieker-20240520-233032352-UTC-001.dat
+15:58:15.481 [Thread-0] INFO  kieker.analysis.AnalysisController - Kieker metadata: version='1.14', controllerName='KIEKER', hostname='MacBook-Pro.local', experimentId='1', debugMode='false', timeOffset='0', timeUnit='NANOSECONDS', numberOfRecords='0'
+15:58:15.550 [main] INFO  kieker.analysis.AnalysisController - Terminating analysis.
+15:58:15.551 [main] INFO  k.a.p.r.f.FSReader (FSReader-2) - Shutting down reader.
+15:58:16.288 [main] INFO  k.t.t.analysis.TraceAnalysisToolMain - Saved analysis configuration to file '/Users/fabiha/Documents/mono2micro/mono2micro/jpet-6-master/account_tracelog/traceAnalysis.kax'
+15:58:16.291 [main] INFO  k.t.t.analysis.TraceAnalysisToolMain - Analysis complete. See 'kieker.log' for details.
+16:00:21.040 [main] INFO  k.t.t.analysis.TraceAnalysisToolMain - Ignoring records before 19700101-000000 (0)
+16:00:21.046 [main] INFO  k.t.t.analysis.TraceAnalysisToolMain - Ignoring records after 2922789940817-071255 (9223372036854775807)
+16:00:21.302 [Thread-1] INFO  k.a.p.r.filesystem.FSDirectoryReader - < Loading /Users/fabiha/Documents/mono2micro/mono2micro/jpet-6-master/order_tracelog/kieker-20240520-234627898-UTC-001.dat
+16:00:21.306 [Thread-0] INFO  kieker.analysis.AnalysisController - Kieker metadata: version='1.14', controllerName='KIEKER', hostname='MacBook-Pro.local', experimentId='1', debugMode='false', timeOffset='0', timeUnit='NANOSECONDS', numberOfRecords='0'
+16:00:21.524 [main] INFO  kieker.analysis.AnalysisController - Terminating analysis.
+16:00:21.524 [main] INFO  k.a.p.r.f.FSReader (FSReader-2) - Shutting down reader.
+16:00:22.240 [main] INFO  k.t.t.analysis.TraceAnalysisToolMain - Saved analysis configuration to file '/Users/fabiha/Documents/mono2micro/mono2micro/jpet-6-master/order_tracelog/traceAnalysis.kax'
+16:00:22.245 [main] INFO  k.t.t.analysis.TraceAnalysisToolMain - Analysis complete. See 'kieker.log' for details.
+16:01:37.868 [main] INFO  k.t.t.analysis.TraceAnalysisToolMain - Ignoring records before 19700101-000000 (0)
+16:01:37.876 [main] INFO  k.t.t.analysis.TraceAnalysisToolMain - Ignoring records after 2922789940817-071255 (9223372036854775807)
+16:01:38.133 [Thread-1] INFO  k.a.p.r.filesystem.FSDirectoryReader - < Loading /Users/fabiha/Documents/mono2micro/mono2micro/jpet-6-master/category_tracelog/kieker-20240520-234429142-UTC-001.dat
+16:01:38.139 [Thread-0] INFO  kieker.analysis.AnalysisController - Kieker metadata: version='1.14', controllerName='KIEKER', hostname='MacBook-Pro.local', experimentId='1', debugMode='false', timeOffset='0', timeUnit='NANOSECONDS', numberOfRecords='0'
+16:01:38.242 [main] INFO  kieker.analysis.AnalysisController - Terminating analysis.
+16:01:38.243 [main] INFO  k.a.p.r.f.FSReader (FSReader-2) - Shutting down reader.
+16:01:39.013 [main] INFO  k.t.t.analysis.TraceAnalysisToolMain - Saved analysis configuration to file '/Users/fabiha/Documents/mono2micro/mono2micro/jpet-6-master/category_tracelog/traceAnalysis.kax'
+16:01:39.016 [main] INFO  k.t.t.analysis.TraceAnalysisToolMain - Analysis complete. See 'kieker.log' for details.
+16:04:47.051 [main] INFO  k.t.t.analysis.TraceAnalysisToolMain - Ignoring records before 19700101-000000 (0)
+16:04:47.057 [main] INFO  k.t.t.analysis.TraceAnalysisToolMain - Ignoring records after 2922789940817-071255 (9223372036854775807)
+16:04:47.198 [Thread-1] INFO  k.a.p.r.filesystem.FSDirectoryReader - < Loading /Users/fabiha/Documents/mono2micro/mono2micro/jpet-6-master/order_tracelog/kieker-20240520-234627898-UTC-001.dat
+16:04:47.201 [Thread-0] INFO  kieker.analysis.AnalysisController - Kieker metadata: version='1.14', controllerName='KIEKER', hostname='MacBook-Pro.local', experimentId='1', debugMode='false', timeOffset='0', timeUnit='NANOSECONDS', numberOfRecords='0'
+16:04:47.401 [main] INFO  kieker.analysis.AnalysisController - Terminating analysis.
+16:04:47.402 [main] INFO  k.a.p.r.f.FSReader (FSReader-2) - Shutting down reader.
+16:04:48.052 [main] INFO  k.t.t.analysis.TraceAnalysisToolMain - Saved analysis configuration to file '/Users/fabiha/Documents/mono2micro/mono2micro/jpet-6-master/order_tracelog/traceAnalysis.kax'
+16:04:48.055 [main] INFO  k.t.t.analysis.TraceAnalysisToolMain - Analysis complete. See 'kieker.log' for details.
+16:04:59.328 [main] INFO  k.t.t.analysis.TraceAnalysisToolMain - Ignoring records before 19700101-000000 (0)
+16:04:59.335 [main] INFO  k.t.t.analysis.TraceAnalysisToolMain - Ignoring records after 2922789940817-071255 (9223372036854775807)
+16:04:59.450 [Thread-1] INFO  k.a.p.r.filesystem.FSDirectoryReader - < Loading /Users/fabiha/Documents/mono2micro/mono2micro/jpet-6-master/category_tracelog/kieker-20240520-234429142-UTC-001.dat
+16:04:59.454 [Thread-0] INFO  kieker.analysis.AnalysisController - Kieker metadata: version='1.14', controllerName='KIEKER', hostname='MacBook-Pro.local', experimentId='1', debugMode='false', timeOffset='0', timeUnit='NANOSECONDS', numberOfRecords='0'
+16:04:59.515 [main] INFO  kieker.analysis.AnalysisController - Terminating analysis.
+16:04:59.515 [main] INFO  k.a.p.r.f.FSReader (FSReader-2) - Shutting down reader.
+16:05:00.126 [main] INFO  k.t.t.analysis.TraceAnalysisToolMain - Saved analysis configuration to file '/Users/fabiha/Documents/mono2micro/mono2micro/jpet-6-master/category_tracelog/traceAnalysis.kax'
+16:05:00.129 [main] INFO  k.t.t.analysis.TraceAnalysisToolMain - Analysis complete. See 'kieker.log' for details.
+16:18:45.324 [main] INFO  k.t.t.analysis.TraceAnalysisToolMain - Ignoring records before 19700101-000000 (0)
+16:18:45.329 [main] INFO  k.t.t.analysis.TraceAnalysisToolMain - Ignoring records after 2922789940817-071255 (9223372036854775807)
+16:18:45.409 [Thread-1] INFO  k.a.p.r.filesystem.FSDirectoryReader - < Loading /Users/fabiha/Documents/mono2micro/mono2micro/jpet-6-master/account_tracelog/kieker-20240520-233032352-UTC-001.dat
+16:18:45.425 [Thread-0] INFO  kieker.analysis.AnalysisController - Kieker metadata: version='1.14', controllerName='KIEKER', hostname='MacBook-Pro.local', experimentId='1', debugMode='false', timeOffset='0', timeUnit='NANOSECONDS', numberOfRecords='0'
+16:18:45.476 [main] INFO  kieker.analysis.AnalysisController - Terminating analysis.
+16:18:45.476 [main] INFO  k.a.p.r.f.FSReader (FSReader-2) - Shutting down reader.
+16:18:46.017 [main] INFO  k.t.t.analysis.TraceAnalysisToolMain - Saved analysis configuration to file '/Users/fabiha/Documents/mono2micro/mono2micro/jpet-6-master/account_tracelog/traceAnalysis.kax'
+16:18:46.019 [main] INFO  k.t.t.analysis.TraceAnalysisToolMain - Analysis complete. See 'kieker.log' for details.
+16:23:36.807 [main] INFO  k.t.t.analysis.TraceAnalysisToolMain - Ignoring records before 19700101-000000 (0)
+16:23:36.813 [main] INFO  k.t.t.analysis.TraceAnalysisToolMain - Ignoring records after 2922789940817-071255 (9223372036854775807)
+16:23:36.907 [Thread-1] INFO  k.a.p.r.filesystem.FSDirectoryReader - < Loading /Users/fabiha/Documents/mono2micro/mono2micro/jpet-6-master/order_tracelog/kieker-20240520-234627898-UTC-001.dat
+16:23:36.910 [Thread-0] INFO  kieker.analysis.AnalysisController - Kieker metadata: version='1.14', controllerName='KIEKER', hostname='MacBook-Pro.local', experimentId='1', debugMode='false', timeOffset='0', timeUnit='NANOSECONDS', numberOfRecords='0'
+16:23:37.043 [main] INFO  kieker.analysis.AnalysisController - Terminating analysis.
+16:23:37.044 [main] INFO  k.a.p.r.f.FSReader (FSReader-2) - Shutting down reader.
+16:23:37.684 [main] INFO  k.t.t.analysis.TraceAnalysisToolMain - Saved analysis configuration to file '/Users/fabiha/Documents/mono2micro/mono2micro/jpet-6-master/order_tracelog/traceAnalysis.kax'
+16:23:37.692 [main] INFO  k.t.t.analysis.TraceAnalysisToolMain - Analysis complete. See 'kieker.log' for details.
+16:23:50.150 [main] INFO  k.t.t.analysis.TraceAnalysisToolMain - Ignoring records before 19700101-000000 (0)
+16:23:50.157 [main] INFO  k.t.t.analysis.TraceAnalysisToolMain - Ignoring records after 2922789940817-071255 (9223372036854775807)
+16:23:50.264 [Thread-1] INFO  k.a.p.r.filesystem.FSDirectoryReader - < Loading /Users/fabiha/Documents/mono2micro/mono2micro/jpet-6-master/category_tracelog/kieker-20240520-234429142-UTC-001.dat
+16:23:50.267 [Thread-0] INFO  kieker.analysis.AnalysisController - Kieker metadata: version='1.14', controllerName='KIEKER', hostname='MacBook-Pro.local', experimentId='1', debugMode='false', timeOffset='0', timeUnit='NANOSECONDS', numberOfRecords='0'
+16:23:50.371 [main] INFO  kieker.analysis.AnalysisController - Terminating analysis.
+16:23:50.371 [main] INFO  k.a.p.r.f.FSReader (FSReader-2) - Shutting down reader.
+16:23:50.948 [main] INFO  k.t.t.analysis.TraceAnalysisToolMain - Saved analysis configuration to file '/Users/fabiha/Documents/mono2micro/mono2micro/jpet-6-master/category_tracelog/traceAnalysis.kax'
+16:23:50.952 [main] INFO  k.t.t.analysis.TraceAnalysisToolMain - Analysis complete. See 'kieker.log' for details.
+16:29:24.496 [main] INFO  k.t.t.analysis.TraceAnalysisToolMain - Ignoring records before 19700101-000000 (0)
+16:29:24.499 [main] INFO  k.t.t.analysis.TraceAnalysisToolMain - Ignoring records after 2922789940817-071255 (9223372036854775807)
+16:29:24.569 [Thread-1] INFO  k.a.p.r.filesystem.FSDirectoryReader - < Loading /Users/fabiha/Documents/mono2micro/mono2micro/jpet-6-master/order_tracelog/kieker-20240520-234627898-UTC-001.dat
+16:29:24.574 [Thread-0] INFO  kieker.analysis.AnalysisController - Kieker metadata: version='1.14', controllerName='KIEKER', hostname='MacBook-Pro.local', experimentId='1', debugMode='false', timeOffset='0', timeUnit='NANOSECONDS', numberOfRecords='0'
+16:29:24.692 [main] INFO  kieker.analysis.AnalysisController - Terminating analysis.
+16:29:24.692 [main] INFO  k.a.p.r.f.FSReader (FSReader-2) - Shutting down reader.
+16:29:25.105 [main] INFO  k.t.t.analysis.TraceAnalysisToolMain - Saved analysis configuration to file '/Users/fabiha/Documents/mono2micro/mono2micro/jpet-6-master/order_tracelog/traceAnalysis.kax'
+16:29:25.107 [main] INFO  k.t.t.analysis.TraceAnalysisToolMain - Analysis complete. See 'kieker.log' for details.

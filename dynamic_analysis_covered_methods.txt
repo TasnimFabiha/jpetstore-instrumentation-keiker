@@ -1,0 +1,1365 @@
+Total number of unique methods in the dot files: 227
+Extracted Methods:
+
+Class: org.mybatis.jpetstore.service.AccountService
+Method: <init>(..)
+  min: 11667ns
+  avg: 11667ns
+  max: 11667ns
+
+Class: org.mybatis.jpetstore.service.AccountService
+Method: getAccount(..)
+  min: 44647194ns
+  avg: 44647194ns
+  max: 44647194ns
+
+Class: org.mybatis.jpetstore.service.CatalogService
+Method: <init>(..)
+  min: 12471ns
+  avg: 12471ns
+  max: 12471ns
+
+Class: org.mybatis.jpetstore.service.CatalogService
+Method: getProductListByCategory(..)
+  min: 3818210ns
+  avg: 3818210ns
+  max: 3818210ns
+
+Class: org.mybatis.jpetstore.service.OrderService
+Method: <init>(..)
+  min: 14764ns
+  avg: 14764ns
+  max: 14764ns
+
+Class: org.mybatis.jpetstore.web.actions.AbstractActionBean
+Method: <init>()
+  min: 2408ns
+  avg: 8218ns
+  max: 14710ns
+
+Class: org.mybatis.jpetstore.web.actions.AbstractActionBean
+Method: getContext()
+  min: 464ns
+  avg: 1276ns
+  max: 8292ns
+
+Class: org.mybatis.jpetstore.web.actions.AbstractActionBean
+Method: setContext(..)
+  min: 866ns
+  avg: 2203ns
+  max: 6280ns
+
+Class: org.mybatis.jpetstore.web.actions.CatalogActionBean
+Method: <init>()
+  min: 1329ns
+  avg: 3664ns
+  max: 5999ns
+
+Class: org.mybatis.jpetstore.web.actions.CatalogActionBean
+Method: viewMain()
+  min: 2104ns
+  avg: 55237ns
+  max: 361110ns
+
+Class: org.mybatis.jpetstore.web.actions.CatalogActionBean
+Method: getKeyword()
+  min: 919ns
+  avg: 1974ns
+  max: 6368ns
+
+Class: org.mybatis.jpetstore.domain.Account
+Method: <init>()
+  min: 2201ns
+  avg: 3707ns
+  max: 6239ns
+
+Class: org.mybatis.jpetstore.domain.Account
+Method: getUsername()
+  min: 577ns
+  avg: 1526ns
+  max: 7576ns
+
+Class: org.mybatis.jpetstore.domain.Account
+Method: setPassword(..)
+  min: 1698ns
+  avg: 4161ns
+  max: 6624ns
+
+Class: org.mybatis.jpetstore.domain.Account
+Method: setUsername(..)
+  min: 1909ns
+  avg: 3750ns
+  max: 5590ns
+
+Class: org.mybatis.jpetstore.domain.Account
+Method: getPassword()
+  min: 1011ns
+  avg: 2812ns
+  max: 4612ns
+
+Class: org.mybatis.jpetstore.domain.Account
+Method: setEmail(..)
+  min: 10169ns
+  avg: 10169ns
+  max: 10169ns
+
+Class: org.mybatis.jpetstore.domain.Account
+Method: setFirstName(..)
+  min: 7331ns
+  avg: 7331ns
+  max: 7331ns
+
+Class: org.mybatis.jpetstore.domain.Account
+Method: setLastName(..)
+  min: 7161ns
+  avg: 7161ns
+  max: 7161ns
+
+Class: org.mybatis.jpetstore.domain.Account
+Method: setStatus(..)
+  min: 10986ns
+  avg: 10986ns
+  max: 10986ns
+
+Class: org.mybatis.jpetstore.domain.Account
+Method: setAddress1(..)
+  min: 5828ns
+  avg: 5828ns
+  max: 5828ns
+
+Class: org.mybatis.jpetstore.domain.Account
+Method: setAddress2(..)
+  min: 6393ns
+  avg: 6393ns
+  max: 6393ns
+
+Class: org.mybatis.jpetstore.domain.Account
+Method: setCity(..)
+  min: 6112ns
+  avg: 6112ns
+  max: 6112ns
+
+Class: org.mybatis.jpetstore.domain.Account
+Method: setState(..)
+  min: 7600ns
+  avg: 7600ns
+  max: 7600ns
+
+Class: org.mybatis.jpetstore.domain.Account
+Method: setZip(..)
+  min: 9431ns
+  avg: 9431ns
+  max: 9431ns
+
+Class: org.mybatis.jpetstore.domain.Account
+Method: setCountry(..)
+  min: 7890ns
+  avg: 7890ns
+  max: 7890ns
+
+Class: org.mybatis.jpetstore.domain.Account
+Method: setPhone(..)
+  min: 7166ns
+  avg: 7166ns
+  max: 7166ns
+
+Class: org.mybatis.jpetstore.domain.Account
+Method: setLanguagePreference(..)
+  min: 30121ns
+  avg: 30121ns
+  max: 30121ns
+
+Class: org.mybatis.jpetstore.domain.Account
+Method: setFavouriteCategoryId(..)
+  min: 5404ns
+  avg: 5404ns
+  max: 5404ns
+
+Class: org.mybatis.jpetstore.domain.Account
+Method: setListOption(..)
+  min: 28739ns
+  avg: 28739ns
+  max: 28739ns
+
+Class: org.mybatis.jpetstore.domain.Account
+Method: setBannerOption(..)
+  min: 18929ns
+  avg: 18929ns
+  max: 18929ns
+
+Class: org.mybatis.jpetstore.domain.Account
+Method: setBannerName(..)
+  min: 8577ns
+  avg: 8577ns
+  max: 8577ns
+
+Class: org.mybatis.jpetstore.domain.Account
+Method: getFavouriteCategoryId()
+  min: 794ns
+  avg: 3364ns
+  max: 5933ns
+
+Class: org.mybatis.jpetstore.domain.Account
+Method: getFirstName()
+  min: 684ns
+  avg: 2982ns
+  max: 8951ns
+
+Class: org.mybatis.jpetstore.domain.Account
+Method: isBannerOption()
+  min: 976ns
+  avg: 3060ns
+  max: 9719ns
+
+Class: org.mybatis.jpetstore.domain.Account
+Method: getBannerName()
+  min: 683ns
+  avg: 1910ns
+  max: 5297ns
+
+Class: org.mybatis.jpetstore.domain.Account
+Method: getLastName()
+  min: 7559ns
+  avg: 7559ns
+  max: 7559ns
+
+Class: org.mybatis.jpetstore.domain.Account
+Method: getEmail()
+  min: 5647ns
+  avg: 5647ns
+  max: 5647ns
+
+Class: org.mybatis.jpetstore.domain.Account
+Method: getPhone()
+  min: 5818ns
+  avg: 5818ns
+  max: 5818ns
+
+Class: org.mybatis.jpetstore.domain.Account
+Method: getAddress1()
+  min: 5249ns
+  avg: 5249ns
+  max: 5249ns
+
+Class: org.mybatis.jpetstore.domain.Account
+Method: getAddress2()
+  min: 4950ns
+  avg: 4950ns
+  max: 4950ns
+
+Class: org.mybatis.jpetstore.domain.Account
+Method: getCity()
+  min: 5968ns
+  avg: 5968ns
+  max: 5968ns
+
+Class: org.mybatis.jpetstore.domain.Account
+Method: getState()
+  min: 5775ns
+  avg: 5775ns
+  max: 5775ns
+
+Class: org.mybatis.jpetstore.domain.Account
+Method: getZip()
+  min: 5574ns
+  avg: 5574ns
+  max: 5574ns
+
+Class: org.mybatis.jpetstore.domain.Account
+Method: getCountry()
+  min: 8332ns
+  avg: 8332ns
+  max: 8332ns
+
+Class: org.mybatis.jpetstore.domain.Account
+Method: getLanguagePreference()
+  min: 5300ns
+  avg: 5300ns
+  max: 5300ns
+
+Class: org.mybatis.jpetstore.domain.Account
+Method: isListOption()
+  min: 17841ns
+  avg: 17841ns
+  max: 17841ns
+
+Class: org.mybatis.jpetstore.web.actions.AccountActionBean
+Method: <init>()
+  min: 77330ns
+  avg: 77330ns
+  max: 77330ns
+
+Class: org.mybatis.jpetstore.web.actions.AccountActionBean
+Method: signonForm()
+  min: 14325ns
+  avg: 14325ns
+  max: 14325ns
+
+Class: org.mybatis.jpetstore.web.actions.AccountActionBean
+Method: getUsername()
+  min: 27754ns
+  avg: 36997ns
+  max: 54946ns
+
+Class: org.mybatis.jpetstore.web.actions.AccountActionBean
+Method: setPassword(..)
+  min: 54305ns
+  avg: 54305ns
+  max: 54305ns
+
+Class: org.mybatis.jpetstore.web.actions.AccountActionBean
+Method: setUsername(..)
+  min: 38444ns
+  avg: 38444ns
+  max: 38444ns
+
+Class: org.mybatis.jpetstore.web.actions.AccountActionBean
+Method: signon()
+  min: 89832120ns
+  avg: 89832120ns
+  max: 89832120ns
+
+Class: org.mybatis.jpetstore.web.actions.AccountActionBean
+Method: getPassword()
+  min: 26953ns
+  avg: 97536ns
+  max: 168118ns
+
+Class: org.mybatis.jpetstore.web.actions.AccountActionBean
+Method: isAuthenticated()
+  min: 9394ns
+  avg: 143647ns
+  max: 1007083ns
+
+Class: org.mybatis.jpetstore.web.actions.AccountActionBean
+Method: getAccount()
+  min: 460ns
+  avg: 1091ns
+  max: 5594ns
+
+Class: org.mybatis.jpetstore.web.actions.AccountActionBean
+Method: editAccountForm()
+  min: 14808ns
+  avg: 14808ns
+  max: 14808ns
+
+Class: org.mybatis.jpetstore.web.actions.AccountActionBean
+Method: getLanguages()
+  min: 6448ns
+  avg: 6448ns
+  max: 6448ns
+
+Class: org.mybatis.jpetstore.web.actions.AccountActionBean
+Method: getCategories()
+  min: 7567ns
+  avg: 7567ns
+  max: 7567ns
+
+Class: org.mybatis.jpetstore.web.actions.AccountActionBean
+Method: signoff()
+  min: 7514990ns
+  avg: 7514990ns
+  max: 7514990ns
+
+Class: org.mybatis.jpetstore.web.actions.AccountActionBean
+Method: clear()
+  min: 107338ns
+  avg: 107338ns
+  max: 107338ns
+
+Class: org.mybatis.jpetstore.domain.Product
+Method: <init>()
+  min: 743ns
+  avg: 1723ns
+  max: 4638ns
+
+Class: org.mybatis.jpetstore.domain.Product
+Method: setProductId(..)
+  min: 1109ns
+  avg: 2442ns
+  max: 8161ns
+
+Class: org.mybatis.jpetstore.domain.Product
+Method: setName(..)
+  min: 923ns
+  avg: 1966ns
+  max: 6710ns
+
+Class: org.mybatis.jpetstore.domain.Product
+Method: setDescription(..)
+  min: 936ns
+  avg: 1887ns
+  max: 6442ns
+
+Class: org.mybatis.jpetstore.domain.Product
+Method: setCategoryId(..)
+  min: 828ns
+  avg: 2930ns
+  max: 7214ns
+
+Class: org.mybatis.jpetstore.service.CatalogService
+Method: searchProductList(..)
+  min: 3898787ns
+  avg: 6533085ns
+  max: 9167383ns
+
+Class: org.mybatis.jpetstore.service.CatalogService
+Method: getItemListByProduct(..)
+  min: 20055358ns
+  avg: 20055358ns
+  max: 20055358ns
+
+Class: org.mybatis.jpetstore.service.CatalogService
+Method: getProduct(..)
+  min: 1734061ns
+  avg: 1734061ns
+  max: 1734061ns
+
+Class: org.mybatis.jpetstore.web.actions.CatalogActionBean
+Method: setKeyword(..)
+  min: 2008ns
+  avg: 5737ns
+  max: 9466ns
+
+Class: org.mybatis.jpetstore.web.actions.CatalogActionBean
+Method: searchProducts()
+  min: 3934989ns
+  avg: 6597782ns
+  max: 9260575ns
+
+Class: org.mybatis.jpetstore.web.actions.CatalogActionBean
+Method: getProductList()
+  min: 1445ns
+  avg: 6782ns
+  max: 12119ns
+
+Class: org.mybatis.jpetstore.web.actions.CatalogActionBean
+Method: setProductId(..)
+  min: 10357ns
+  avg: 10357ns
+  max: 10357ns
+
+Class: org.mybatis.jpetstore.web.actions.CatalogActionBean
+Method: viewProduct()
+  min: 21975456ns
+  avg: 21975456ns
+  max: 21975456ns
+
+Class: org.mybatis.jpetstore.web.actions.CatalogActionBean
+Method: getProduct()
+  min: 699ns
+  avg: 1795ns
+  max: 5708ns
+
+Class: org.mybatis.jpetstore.web.actions.CatalogActionBean
+Method: getItemList()
+  min: 4257ns
+  avg: 4257ns
+  max: 4257ns
+
+Class: org.mybatis.jpetstore.domain.Product
+Method: getProductId()
+  min: 696ns
+  avg: 5120ns
+  max: 45900ns
+
+Class: org.mybatis.jpetstore.domain.Product
+Method: getDescription()
+  min: 1022ns
+  avg: 2868ns
+  max: 7265ns
+
+Class: org.mybatis.jpetstore.domain.Product
+Method: getName()
+  min: 607ns
+  avg: 1922ns
+  max: 7753ns
+
+Class: org.mybatis.jpetstore.domain.Product
+Method: getCategoryId()
+  min: 666ns
+  avg: 2364ns
+  max: 4062ns
+
+Class: org.mybatis.jpetstore.domain.Item
+Method: <init>()
+  min: 837ns
+  avg: 10693ns
+  max: 20548ns
+
+Class: org.mybatis.jpetstore.domain.Item
+Method: getProduct()
+  min: 535ns
+  avg: 1083ns
+  max: 7227ns
+
+Class: org.mybatis.jpetstore.domain.Item
+Method: setItemId(..)
+  min: 1242ns
+  avg: 5750ns
+  max: 10258ns
+
+Class: org.mybatis.jpetstore.domain.Item
+Method: setListPrice(..)
+  min: 719ns
+  avg: 3727ns
+  max: 6735ns
+
+Class: org.mybatis.jpetstore.domain.Item
+Method: setUnitCost(..)
+  min: 743ns
+  avg: 3061ns
+  max: 5379ns
+
+Class: org.mybatis.jpetstore.domain.Item
+Method: setSupplierId(..)
+  min: 984ns
+  avg: 4588ns
+  max: 8192ns
+
+Class: org.mybatis.jpetstore.domain.Item
+Method: setProduct(..)
+  min: 742ns
+  avg: 2840ns
+  max: 4938ns
+
+Class: org.mybatis.jpetstore.domain.Item
+Method: setStatus(..)
+  min: 720ns
+  avg: 3543ns
+  max: 6365ns
+
+Class: org.mybatis.jpetstore.domain.Item
+Method: setAttribute1(..)
+  min: 586ns
+  avg: 3399ns
+  max: 6212ns
+
+Class: org.mybatis.jpetstore.domain.Item
+Method: getItemId()
+  min: 585ns
+  avg: 2016ns
+  max: 7758ns
+
+Class: org.mybatis.jpetstore.domain.Item
+Method: getAttribute1()
+  min: 827ns
+  avg: 2735ns
+  max: 4643ns
+
+Class: org.mybatis.jpetstore.domain.Item
+Method: getAttribute2()
+  min: 842ns
+  avg: 2336ns
+  max: 3830ns
+
+Class: org.mybatis.jpetstore.domain.Item
+Method: getAttribute3()
+  min: 831ns
+  avg: 1940ns
+  max: 3048ns
+
+Class: org.mybatis.jpetstore.domain.Item
+Method: getAttribute4()
+  min: 824ns
+  avg: 1936ns
+  max: 3048ns
+
+Class: org.mybatis.jpetstore.domain.Item
+Method: getAttribute5()
+  min: 907ns
+  avg: 1952ns
+  max: 2997ns
+
+Class: org.mybatis.jpetstore.domain.Item
+Method: getListPrice()
+  min: 593ns
+  avg: 3859ns
+  max: 7125ns
+
+Class: org.mybatis.jpetstore.service.CatalogService
+Method: isItemInStock(..)
+  min: 2318677ns
+  avg: 2318677ns
+  max: 2318677ns
+
+Class: org.mybatis.jpetstore.service.CatalogService
+Method: getItem(..)
+  min: 3820649ns
+  avg: 3820649ns
+  max: 3820649ns
+
+Class: org.mybatis.jpetstore.service.OrderService
+Method: insertOrder(..)
+  min: 85715542ns
+  avg: 85715542ns
+  max: 85715542ns
+
+Class: org.mybatis.jpetstore.service.OrderService
+Method: getNextId(..)
+  min: 49586236ns
+  avg: 49586236ns
+  max: 49586236ns
+
+Class: org.mybatis.jpetstore.service.OrderService
+Method: lambda$0(..)
+  min: 789302ns
+  avg: 789302ns
+  max: 789302ns
+
+Class: org.mybatis.jpetstore.service.OrderService
+Method: lambda$1(..)
+  min: 1499585ns
+  avg: 1499585ns
+  max: 1499585ns
+
+Class: org.mybatis.jpetstore.service.OrderService
+Method: getOrdersByUsername(..)
+  min: 1278480ns
+  avg: 4796505ns
+  max: 8314530ns
+
+Class: org.mybatis.jpetstore.service.OrderService
+Method: getOrder(..)
+  min: 98095205ns
+  avg: 98095205ns
+  max: 98095205ns
+
+Class: org.mybatis.jpetstore.service.OrderService
+Method: lambda$2(..)
+  min: 15780183ns
+  avg: 15780183ns
+  max: 15780183ns
+
+Class: org.mybatis.jpetstore.web.actions.AbstractActionBean
+Method: setMessage(..)
+  min: 590426ns
+  avg: 590426ns
+  max: 590426ns
+
+Class: org.mybatis.jpetstore.domain.Item
+Method: setQuantity(..)
+  min: 806ns
+  avg: 4674ns
+  max: 11665ns
+
+Class: org.mybatis.jpetstore.domain.Cart
+Method: <init>()
+  min: 3892ns
+  avg: 11963ns
+  max: 20034ns
+
+Class: org.mybatis.jpetstore.domain.Cart
+Method: containsItemId(..)
+  min: 2778ns
+  avg: 9424ns
+  max: 16069ns
+
+Class: org.mybatis.jpetstore.domain.Cart
+Method: addItem(..)
+  min: 903662ns
+  avg: 903662ns
+  max: 903662ns
+
+Class: org.mybatis.jpetstore.domain.Cart
+Method: getNumberOfItems()
+  min: 1790ns
+  avg: 4223ns
+  max: 16021ns
+
+Class: org.mybatis.jpetstore.domain.Cart
+Method: getCartItems()
+  min: 947ns
+  avg: 4713ns
+  max: 15556ns
+
+Class: org.mybatis.jpetstore.domain.Cart
+Method: getSubTotal()
+  min: 43973ns
+  avg: 141362ns
+  max: 669539ns
+
+Class: org.mybatis.jpetstore.domain.Cart
+Method: lambda$0(..)
+  min: 18022ns
+  avg: 27408ns
+  max: 43394ns
+
+Class: org.mybatis.jpetstore.domain.Cart
+Method: incrementQuantityByItemId(..)
+  min: 30809ns
+  avg: 30809ns
+  max: 30809ns
+
+Class: org.mybatis.jpetstore.domain.Cart
+Method: getAllCartItems()
+  min: 749ns
+  avg: 1903ns
+  max: 4060ns
+
+Class: org.mybatis.jpetstore.web.actions.CartActionBean
+Method: <init>()
+  min: 138771ns
+  avg: 138771ns
+  max: 138771ns
+
+Class: org.mybatis.jpetstore.web.actions.CartActionBean
+Method: setWorkingItemId(..)
+  min: 792ns
+  avg: 8756ns
+  max: 16719ns
+
+Class: org.mybatis.jpetstore.web.actions.CartActionBean
+Method: addItemToCart()
+  min: 126678ns
+  avg: 3702380ns
+  max: 7278081ns
+
+Class: org.mybatis.jpetstore.web.actions.CartActionBean
+Method: getCart()
+  min: 567ns
+  avg: 1508ns
+  max: 7711ns
+
+Class: org.mybatis.jpetstore.web.actions.CartActionBean
+Method: viewCart()
+  min: 2420ns
+  avg: 244416ns
+  max: 486412ns
+
+Class: org.mybatis.jpetstore.web.actions.CartActionBean
+Method: clear()
+  min: 18512ns
+  avg: 18512ns
+  max: 18512ns
+
+Class: org.mybatis.jpetstore.domain.CartItem
+Method: <init>()
+  min: 4153ns
+  avg: 4153ns
+  max: 4153ns
+
+Class: org.mybatis.jpetstore.domain.CartItem
+Method: setItem(..)
+  min: 661130ns
+  avg: 661130ns
+  max: 661130ns
+
+Class: org.mybatis.jpetstore.domain.CartItem
+Method: calculateTotal()
+  min: 16968ns
+  avg: 163583ns
+  max: 601987ns
+
+Class: org.mybatis.jpetstore.domain.CartItem
+Method: lambda$1(..)
+  min: 2739ns
+  avg: 8822ns
+  max: 24911ns
+
+Class: org.mybatis.jpetstore.domain.CartItem
+Method: setQuantity(..)
+  min: 29266ns
+  avg: 29266ns
+  max: 29266ns
+
+Class: org.mybatis.jpetstore.domain.CartItem
+Method: setInStock(..)
+  min: 5441ns
+  avg: 5441ns
+  max: 5441ns
+
+Class: org.mybatis.jpetstore.domain.CartItem
+Method: incrementQuantity()
+  min: 20034ns
+  avg: 23055ns
+  max: 26075ns
+
+Class: org.mybatis.jpetstore.domain.CartItem
+Method: getItem()
+  min: 153ns
+  avg: 904ns
+  max: 18320ns
+
+Class: org.mybatis.jpetstore.domain.CartItem
+Method: isInStock()
+  min: 1718ns
+  avg: 7016ns
+  max: 22262ns
+
+Class: org.mybatis.jpetstore.domain.CartItem
+Method: getQuantity()
+  min: 382ns
+  avg: 1512ns
+  max: 7746ns
+
+Class: org.mybatis.jpetstore.domain.CartItem
+Method: getTotal()
+  min: 994ns
+  avg: 2169ns
+  max: 5499ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: <init>()
+  min: 718ns
+  avg: 2396ns
+  max: 9145ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: initOrder(..)
+  min: 132162ns
+  avg: 415433ns
+  max: 940353ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: addLineItem(..)
+  min: 37326ns
+  avg: 255497ns
+  max: 662337ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: getCardType()
+  min: 730ns
+  avg: 1610ns
+  max: 5455ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: getCreditCard()
+  min: 762ns
+  avg: 1797ns
+  max: 6369ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: getExpiryDate()
+  min: 369ns
+  avg: 1286ns
+  max: 5199ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: getBillToFirstName()
+  min: 564ns
+  avg: 1245ns
+  max: 4187ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: getBillToLastName()
+  min: 395ns
+  avg: 1117ns
+  max: 3834ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: getBillAddress1()
+  min: 435ns
+  avg: 1085ns
+  max: 3815ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: getBillAddress2()
+  min: 234ns
+  avg: 1034ns
+  max: 3918ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: getBillCity()
+  min: 426ns
+  avg: 1011ns
+  max: 3573ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: getBillState()
+  min: 410ns
+  avg: 964ns
+  max: 3814ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: getBillZip()
+  min: 459ns
+  avg: 1089ns
+  max: 3907ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: getBillCountry()
+  min: 281ns
+  avg: 878ns
+  max: 3826ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: setBillZip(..)
+  min: 664ns
+  avg: 3497ns
+  max: 9005ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: setBillCity(..)
+  min: 683ns
+  avg: 2259ns
+  max: 5292ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: setCardType(..)
+  min: 546ns
+  avg: 1977ns
+  max: 4613ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: setBillState(..)
+  min: 574ns
+  avg: 2082ns
+  max: 4833ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: setCreditCard(..)
+  min: 491ns
+  avg: 2056ns
+  max: 4983ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: setExpiryDate(..)
+  min: 423ns
+  avg: 1859ns
+  max: 4500ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: setBillCountry(..)
+  min: 682ns
+  avg: 1989ns
+  max: 4484ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: setBillAddress1(..)
+  min: 1452ns
+  avg: 2520ns
+  max: 4568ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: setBillAddress2(..)
+  min: 502ns
+  avg: 1934ns
+  max: 4548ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: setBillToLastName(..)
+  min: 490ns
+  avg: 1816ns
+  max: 4355ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: setBillToFirstName(..)
+  min: 776ns
+  avg: 2065ns
+  max: 4629ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: getOrderDate()
+  min: 492ns
+  avg: 1834ns
+  max: 8013ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: getShipToFirstName()
+  min: 484ns
+  avg: 2370ns
+  max: 7699ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: getShipToLastName()
+  min: 552ns
+  avg: 2311ns
+  max: 6668ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: getShipAddress1()
+  min: 483ns
+  avg: 2303ns
+  max: 6868ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: getShipAddress2()
+  min: 483ns
+  avg: 3697ns
+  max: 12786ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: getShipCity()
+  min: 459ns
+  avg: 1930ns
+  max: 5554ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: getShipState()
+  min: 430ns
+  avg: 1502ns
+  max: 4601ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: getShipZip()
+  min: 454ns
+  avg: 1332ns
+  max: 3743ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: getShipCountry()
+  min: 345ns
+  avg: 1177ns
+  max: 3555ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: setOrderId(..)
+  min: 718ns
+  avg: 2838ns
+  max: 7636ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: getLineItems()
+  min: 491ns
+  avg: 1205ns
+  max: 3487ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: getOrderId()
+  min: 666ns
+  avg: 2228ns
+  max: 8505ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: getUsername()
+  min: 697ns
+  avg: 2655ns
+  max: 4613ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: getCourier()
+  min: 481ns
+  avg: 3081ns
+  max: 7995ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: getTotalPrice()
+  min: 808ns
+  avg: 1679ns
+  max: 4377ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: getLocale()
+  min: 6374ns
+  avg: 6374ns
+  max: 6374ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: getStatus()
+  min: 525ns
+  avg: 2374ns
+  max: 5717ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: setShipAddress1(..)
+  min: 887ns
+  avg: 4503ns
+  max: 8119ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: setShipAddress2(..)
+  min: 577ns
+  avg: 3074ns
+  max: 5570ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: setShipCity(..)
+  min: 668ns
+  avg: 2630ns
+  max: 4592ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: setShipCountry(..)
+  min: 730ns
+  avg: 2623ns
+  max: 4516ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: setShipState(..)
+  min: 936ns
+  avg: 2451ns
+  max: 3965ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: setShipToFirstName(..)
+  min: 795ns
+  avg: 2521ns
+  max: 4247ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: setShipToLastName(..)
+  min: 632ns
+  avg: 7539ns
+  max: 14445ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: setShipZip(..)
+  min: 523ns
+  avg: 2342ns
+  max: 4161ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: setCourier(..)
+  min: 492ns
+  avg: 2513ns
+  max: 4533ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: setLocale(..)
+  min: 703ns
+  avg: 2582ns
+  max: 4461ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: setOrderDate(..)
+  min: 1517ns
+  avg: 3522ns
+  max: 5527ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: setTotalPrice(..)
+  min: 783ns
+  avg: 4564ns
+  max: 8345ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: setUsername(..)
+  min: 512ns
+  avg: 2899ns
+  max: 5286ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: setStatus(..)
+  min: 3456ns
+  avg: 3953ns
+  max: 4449ns
+
+Class: org.mybatis.jpetstore.domain.Order
+Method: setLineItems(..)
+  min: 8065ns
+  avg: 8065ns
+  max: 8065ns
+
+Class: org.mybatis.jpetstore.web.actions.OrderActionBean
+Method: <init>()
+  min: 42516ns
+  avg: 42516ns
+  max: 42516ns
+
+Class: org.mybatis.jpetstore.web.actions.OrderActionBean
+Method: newOrderForm()
+  min: 171417ns
+  avg: 497294ns
+  max: 1095240ns
+
+Class: org.mybatis.jpetstore.web.actions.OrderActionBean
+Method: clear()
+  min: 6834ns
+  avg: 11400ns
+  max: 15825ns
+
+Class: org.mybatis.jpetstore.web.actions.OrderActionBean
+Method: getOrder()
+  min: 215ns
+  avg: 756ns
+  max: 17221ns
+
+Class: org.mybatis.jpetstore.web.actions.OrderActionBean
+Method: getCreditCardTypes()
+  min: 805ns
+  avg: 2577ns
+  max: 6056ns
+
+Class: org.mybatis.jpetstore.web.actions.OrderActionBean
+Method: isShippingAddressRequired()
+  min: 1293ns
+  avg: 3940ns
+  max: 8887ns
+
+Class: org.mybatis.jpetstore.web.actions.OrderActionBean
+Method: setShippingAddressRequired(..)
+  min: 11346ns
+  avg: 11346ns
+  max: 11346ns
+
+Class: org.mybatis.jpetstore.web.actions.OrderActionBean
+Method: newOrder()
+  min: 60127ns
+  avg: 65815643ns
+  max: 131571158ns
+
+Class: org.mybatis.jpetstore.web.actions.OrderActionBean
+Method: isConfirmed()
+  min: 1380ns
+  avg: 4073ns
+  max: 6766ns
+
+Class: org.mybatis.jpetstore.web.actions.OrderActionBean
+Method: setConfirmed(..)
+  min: 9921ns
+  avg: 9921ns
+  max: 9921ns
+
+Class: org.mybatis.jpetstore.web.actions.OrderActionBean
+Method: listOrders()
+  min: 1452730ns
+  avg: 4977974ns
+  max: 8503217ns
+
+Class: org.mybatis.jpetstore.web.actions.OrderActionBean
+Method: getOrderList()
+  min: 972ns
+  avg: 11260ns
+  max: 21547ns
+
+Class: org.mybatis.jpetstore.web.actions.OrderActionBean
+Method: setOrderId(..)
+  min: 23244ns
+  avg: 23244ns
+  max: 23244ns
+
+Class: org.mybatis.jpetstore.web.actions.OrderActionBean
+Method: viewOrder()
+  min: 106853062ns
+  avg: 106853062ns
+  max: 106853062ns
+
+Class: org.mybatis.jpetstore.domain.LineItem
+Method: <init>(..)
+  min: 28460ns
+  avg: 230663ns
+  max: 606140ns
+
+Class: org.mybatis.jpetstore.domain.LineItem
+Method: calculateTotal()
+  min: 6100ns
+  avg: 125442ns
+  max: 561416ns
+
+Class: org.mybatis.jpetstore.domain.LineItem
+Method: lambda$1(..)
+  min: 2826ns
+  avg: 6696ns
+  max: 14721ns
+
+Class: org.mybatis.jpetstore.domain.LineItem
+Method: getItemId()
+  min: 681ns
+  avg: 1414ns
+  max: 3170ns
+
+Class: org.mybatis.jpetstore.domain.LineItem
+Method: getQuantity()
+  min: 908ns
+  avg: 1938ns
+  max: 4160ns
+
+Class: org.mybatis.jpetstore.domain.LineItem
+Method: setOrderId(..)
+  min: 1703ns
+  avg: 3862ns
+  max: 6020ns
+
+Class: org.mybatis.jpetstore.domain.LineItem
+Method: getOrderId()
+  min: 8929ns
+  avg: 8929ns
+  max: 8929ns
+
+Class: org.mybatis.jpetstore.domain.LineItem
+Method: getLineNumber()
+  min: 6995ns
+  avg: 6995ns
+  max: 6995ns
+
+Class: org.mybatis.jpetstore.domain.LineItem
+Method: getUnitPrice()
+  min: 713ns
+  avg: 1991ns
+  max: 4466ns
+
+Class: org.mybatis.jpetstore.domain.LineItem
+Method: getItem()
+  min: 239ns
+  avg: 812ns
+  max: 8571ns
+
+Class: org.mybatis.jpetstore.domain.LineItem
+Method: getTotal()
+  min: 797ns
+  avg: 2785ns
+  max: 4772ns
+
+Class: org.mybatis.jpetstore.domain.LineItem
+Method: <init>()
+  min: 167801ns
+  avg: 167801ns
+  max: 167801ns
+
+Class: org.mybatis.jpetstore.domain.LineItem
+Method: setLineNumber(..)
+  min: 7745ns
+  avg: 7745ns
+  max: 7745ns
+
+Class: org.mybatis.jpetstore.domain.LineItem
+Method: setItemId(..)
+  min: 5495ns
+  avg: 5495ns
+  max: 5495ns
+
+Class: org.mybatis.jpetstore.domain.LineItem
+Method: setQuantity(..)
+  min: 23185ns
+  avg: 23185ns
+  max: 23185ns
+
+Class: org.mybatis.jpetstore.domain.LineItem
+Method: setUnitPrice(..)
+  min: 6755ns
+  avg: 6755ns
+  max: 6755ns
+
+Class: org.mybatis.jpetstore.domain.LineItem
+Method: setItem(..)
+  min: 32382ns
+  avg: 32382ns
+  max: 32382ns
+
+Class: org.mybatis.jpetstore.domain.Sequence
+Method: <init>(..)
+  min: 883ns
+  avg: 4175ns
+  max: 7467ns
+
+Class: org.mybatis.jpetstore.domain.Sequence
+Method: getName()
+  min: 884ns
+  avg: 2744ns
+  max: 5965ns
+
+Class: org.mybatis.jpetstore.domain.Sequence
+Method: <init>()
+  min: 5959ns
+  avg: 5959ns
+  max: 5959ns
+
+Class: org.mybatis.jpetstore.domain.Sequence
+Method: setName(..)
+  min: 17765ns
+  avg: 17765ns
+  max: 17765ns
+
+Class: org.mybatis.jpetstore.domain.Sequence
+Method: setNextId(..)
+  min: 7834ns
+  avg: 7834ns
+  max: 7834ns
+
+Class: org.mybatis.jpetstore.domain.Sequence
+Method: getNextId()
+  min: 1945ns
+  avg: 4329ns
+  max: 8245ns
+
