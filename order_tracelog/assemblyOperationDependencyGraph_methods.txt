@@ -1,0 +1,1143 @@
+Total number of methods in the dot file are:228
+Extracted Methods:
+
+Method: <init>(..)
+  min: 13522ns
+  avg: 13522ns
+  max: 13522ns
+
+Method: getAccount(..)
+  min: 42249600ns
+  avg: 42249600ns
+  max: 42249600ns
+
+Method: <init>(..)
+  min: 11184ns
+  avg: 11184ns
+  max: 11184ns
+
+Method: getProductListByCategory(..)
+  min: 3672998ns
+  avg: 3672998ns
+  max: 3672998ns
+
+Method: searchProductList(..)
+  min: 593200ns
+  avg: 2347620ns
+  max: 4042699ns
+
+Method: getItemListByProduct(..)
+  min: 1091199ns
+  avg: 5120374ns
+  max: 9537912ns
+
+Method: getProduct(..)
+  min: 304513ns
+  avg: 668251ns
+  max: 1323043ns
+
+Method: isItemInStock(..)
+  min: 2318677ns
+  avg: 2318677ns
+  max: 2318677ns
+
+Method: getItem(..)
+  min: 3820649ns
+  avg: 3820649ns
+  max: 3820649ns
+
+Method: <init>(..)
+  min: 13210ns
+  avg: 13210ns
+  max: 13210ns
+
+Method: insertOrder(..)
+  min: 85715542ns
+  avg: 85715542ns
+  max: 85715542ns
+
+Method: getNextId(..)
+  min: 49586236ns
+  avg: 49586236ns
+  max: 49586236ns
+
+Method: lambda$0(..)
+  min: 789302ns
+  avg: 789302ns
+  max: 789302ns
+
+Method: lambda$1(..)
+  min: 1499585ns
+  avg: 1499585ns
+  max: 1499585ns
+
+Method: getOrdersByUsername(..)
+  min: 1278480ns
+  avg: 4796505ns
+  max: 8314530ns
+
+Method: getOrder(..)
+  min: 98095205ns
+  avg: 98095205ns
+  max: 98095205ns
+
+Method: lambda$2(..)
+  min: 15780183ns
+  avg: 15780183ns
+  max: 15780183ns
+
+Method: <init>()
+  min: 996ns
+  avg: 2354ns
+  max: 7265ns
+
+Method: getContext()
+  min: 92ns
+  avg: 1477ns
+  max: 73307ns
+
+Method: setContext(..)
+  min: 562ns
+  avg: 1554ns
+  max: 9597ns
+
+Method: setMessage(..)
+  min: 590426ns
+  avg: 590426ns
+  max: 590426ns
+
+Method: <init>()
+  min: 578ns
+  avg: 1653ns
+  max: 5285ns
+
+Method: viewMain()
+  min: 2222ns
+  avg: 46874ns
+  max: 337227ns
+
+Method: getKeyword()
+  min: 638ns
+  avg: 1296ns
+  max: 10124ns
+
+Method: setKeyword(..)
+  min: 1247ns
+  avg: 3647ns
+  max: 10214ns
+
+Method: searchProducts()
+  min: 696636ns
+  avg: 2415292ns
+  max: 4145085ns
+
+Method: getProductList()
+  min: 1061ns
+  avg: 3349ns
+  max: 9453ns
+
+Method: setProductId(..)
+  min: 937ns
+  avg: 4166ns
+  max: 10350ns
+
+Method: viewProduct()
+  min: 1500546ns
+  avg: 5865893ns
+  max: 11011117ns
+
+Method: getProduct()
+  min: 443ns
+  avg: 9710ns
+  max: 124276ns
+
+Method: getItemList()
+  min: 708ns
+  avg: 3105ns
+  max: 7458ns
+
+Method: <init>()
+  min: 1266ns
+  avg: 2940ns
+  max: 4180ns
+
+Method: getUsername()
+  min: 238ns
+  avg: 838ns
+  max: 19916ns
+
+Method: setPassword(..)
+  min: 1606ns
+  avg: 4141ns
+  max: 6676ns
+
+Method: setUsername(..)
+  min: 1625ns
+  avg: 3160ns
+  max: 4695ns
+
+Method: getPassword()
+  min: 618ns
+  avg: 2114ns
+  max: 5029ns
+
+Method: setEmail(..)
+  min: 8589ns
+  avg: 8589ns
+  max: 8589ns
+
+Method: setFirstName(..)
+  min: 6807ns
+  avg: 6807ns
+  max: 6807ns
+
+Method: setLastName(..)
+  min: 6051ns
+  avg: 6051ns
+  max: 6051ns
+
+Method: setStatus(..)
+  min: 5930ns
+  avg: 5930ns
+  max: 5930ns
+
+Method: setAddress1(..)
+  min: 7227ns
+  avg: 7227ns
+  max: 7227ns
+
+Method: setAddress2(..)
+  min: 6006ns
+  avg: 6006ns
+  max: 6006ns
+
+Method: setCity(..)
+  min: 6387ns
+  avg: 6387ns
+  max: 6387ns
+
+Method: setState(..)
+  min: 6019ns
+  avg: 6019ns
+  max: 6019ns
+
+Method: setZip(..)
+  min: 6191ns
+  avg: 6191ns
+  max: 6191ns
+
+Method: setCountry(..)
+  min: 6279ns
+  avg: 6279ns
+  max: 6279ns
+
+Method: setPhone(..)
+  min: 6539ns
+  avg: 6539ns
+  max: 6539ns
+
+Method: setLanguagePreference(..)
+  min: 6196ns
+  avg: 6196ns
+  max: 6196ns
+
+Method: setFavouriteCategoryId(..)
+  min: 5843ns
+  avg: 5843ns
+  max: 5843ns
+
+Method: setListOption(..)
+  min: 9513ns
+  avg: 9513ns
+  max: 9513ns
+
+Method: setBannerOption(..)
+  min: 14703ns
+  avg: 14703ns
+  max: 14703ns
+
+Method: setBannerName(..)
+  min: 24188ns
+  avg: 24188ns
+  max: 24188ns
+
+Method: getFavouriteCategoryId()
+  min: 646ns
+  avg: 2524ns
+  max: 5944ns
+
+Method: getFirstName()
+  min: 202ns
+  avg: 1767ns
+  max: 19215ns
+
+Method: isBannerOption()
+  min: 1123ns
+  avg: 1743ns
+  max: 10315ns
+
+Method: getBannerName()
+  min: 347ns
+  avg: 894ns
+  max: 5635ns
+
+Method: getLastName()
+  min: 187ns
+  avg: 897ns
+  max: 3858ns
+
+Method: getAddress1()
+  min: 207ns
+  avg: 893ns
+  max: 3101ns
+
+Method: getAddress2()
+  min: 212ns
+  avg: 909ns
+  max: 2857ns
+
+Method: getCity()
+  min: 184ns
+  avg: 2202ns
+  max: 14586ns
+
+Method: getState()
+  min: 201ns
+  avg: 709ns
+  max: 2995ns
+
+Method: getZip()
+  min: 196ns
+  avg: 689ns
+  max: 2803ns
+
+Method: getCountry()
+  min: 215ns
+  avg: 774ns
+  max: 2947ns
+
+Method: getEmail()
+  min: 645ns
+  avg: 104695ns
+  max: 208744ns
+
+Method: getPhone()
+  min: 853ns
+  avg: 5347ns
+  max: 9841ns
+
+Method: getLanguagePreference()
+  min: 648ns
+  avg: 3900ns
+  max: 7151ns
+
+Method: isListOption()
+  min: 7202ns
+  avg: 8381ns
+  max: 9560ns
+
+Method: <init>()
+  min: 51768ns
+  avg: 51768ns
+  max: 51768ns
+
+Method: signonForm()
+  min: 14765ns
+  avg: 14765ns
+  max: 14765ns
+
+Method: getUsername()
+  min: 12420ns
+  avg: 49807ns
+  max: 84142ns
+
+Method: setPassword(..)
+  min: 47749ns
+  avg: 47749ns
+  max: 47749ns
+
+Method: setUsername(..)
+  min: 39109ns
+  avg: 39109ns
+  max: 39109ns
+
+Method: signon()
+  min: 64959945ns
+  avg: 64959945ns
+  max: 64959945ns
+
+Method: getPassword()
+  min: 4835ns
+  avg: 87800ns
+  max: 218117ns
+
+Method: isAuthenticated()
+  min: 3118ns
+  avg: 98078ns
+  max: 1834840ns
+
+Method: getAccount()
+  min: 255ns
+  avg: 3340ns
+  max: 202598ns
+
+Method: editAccountForm()
+  min: 2986ns
+  avg: 8693ns
+  max: 14400ns
+
+Method: getLanguages()
+  min: 750ns
+  avg: 25513ns
+  max: 50276ns
+
+Method: getCategories()
+  min: 800ns
+  avg: 4987ns
+  max: 9173ns
+
+Method: signoff()
+  min: 2545094ns
+  avg: 2545094ns
+  max: 2545094ns
+
+Method: clear()
+  min: 132611ns
+  avg: 132611ns
+  max: 132611ns
+
+Method: <init>()
+  min: 396ns
+  avg: 1246ns
+  max: 5122ns
+
+Method: setProductId(..)
+  min: 522ns
+  avg: 1823ns
+  max: 10404ns
+
+Method: setName(..)
+  min: 484ns
+  avg: 1228ns
+  max: 6213ns
+
+Method: setDescription(..)
+  min: 461ns
+  avg: 1088ns
+  max: 5710ns
+
+Method: setCategoryId(..)
+  min: 399ns
+  avg: 1133ns
+  max: 6039ns
+
+Method: getProductId()
+  min: 345ns
+  avg: 1202ns
+  max: 12775ns
+
+Method: getDescription()
+  min: 482ns
+  avg: 1795ns
+  max: 8592ns
+
+Method: getName()
+  min: 434ns
+  avg: 1226ns
+  max: 9034ns
+
+Method: getCategoryId()
+  min: 363ns
+  avg: 1479ns
+  max: 5300ns
+
+Method: <init>()
+  min: 620ns
+  avg: 1737ns
+  max: 3819ns
+
+Method: getProduct()
+  min: 205ns
+  avg: 634ns
+  max: 3902ns
+
+Method: setItemId(..)
+  min: 629ns
+  avg: 2140ns
+  max: 5409ns
+
+Method: setListPrice(..)
+  min: 623ns
+  avg: 1534ns
+  max: 3743ns
+
+Method: setUnitCost(..)
+  min: 379ns
+  avg: 1247ns
+  max: 3171ns
+
+Method: setSupplierId(..)
+  min: 659ns
+  avg: 2254ns
+  max: 5431ns
+
+Method: setProduct(..)
+  min: 410ns
+  avg: 1216ns
+  max: 3074ns
+
+Method: setStatus(..)
+  min: 581ns
+  avg: 1409ns
+  max: 3675ns
+
+Method: setAttribute1(..)
+  min: 400ns
+  avg: 1220ns
+  max: 3056ns
+
+Method: getItemId()
+  min: 302ns
+  avg: 954ns
+  max: 5177ns
+
+Method: getAttribute1()
+  min: 384ns
+  avg: 1054ns
+  max: 4750ns
+
+Method: getAttribute2()
+  min: 581ns
+  avg: 1037ns
+  max: 3981ns
+
+Method: getAttribute3()
+  min: 426ns
+  avg: 1030ns
+  max: 5306ns
+
+Method: getAttribute4()
+  min: 371ns
+  avg: 1083ns
+  max: 5993ns
+
+Method: getAttribute5()
+  min: 514ns
+  avg: 1137ns
+  max: 5417ns
+
+Method: getListPrice()
+  min: 198ns
+  avg: 960ns
+  max: 5001ns
+
+Method: setQuantity(..)
+  min: 806ns
+  avg: 4674ns
+  max: 11665ns
+
+Method: <init>()
+  min: 3892ns
+  avg: 11963ns
+  max: 20034ns
+
+Method: containsItemId(..)
+  min: 2778ns
+  avg: 9424ns
+  max: 16069ns
+
+Method: addItem(..)
+  min: 903662ns
+  avg: 903662ns
+  max: 903662ns
+
+Method: getNumberOfItems()
+  min: 1790ns
+  avg: 4223ns
+  max: 16021ns
+
+Method: getCartItems()
+  min: 947ns
+  avg: 4713ns
+  max: 15556ns
+
+Method: getSubTotal()
+  min: 43973ns
+  avg: 141362ns
+  max: 669539ns
+
+Method: lambda$0(..)
+  min: 18022ns
+  avg: 27408ns
+  max: 43394ns
+
+Method: incrementQuantityByItemId(..)
+  min: 30809ns
+  avg: 30809ns
+  max: 30809ns
+
+Method: getAllCartItems()
+  min: 749ns
+  avg: 1903ns
+  max: 4060ns
+
+Method: <init>()
+  min: 138771ns
+  avg: 138771ns
+  max: 138771ns
+
+Method: setWorkingItemId(..)
+  min: 792ns
+  avg: 8756ns
+  max: 16719ns
+
+Method: addItemToCart()
+  min: 126678ns
+  avg: 3702380ns
+  max: 7278081ns
+
+Method: getCart()
+  min: 567ns
+  avg: 1508ns
+  max: 7711ns
+
+Method: viewCart()
+  min: 2420ns
+  avg: 244416ns
+  max: 486412ns
+
+Method: clear()
+  min: 18512ns
+  avg: 18512ns
+  max: 18512ns
+
+Method: <init>()
+  min: 4153ns
+  avg: 4153ns
+  max: 4153ns
+
+Method: setItem(..)
+  min: 661130ns
+  avg: 661130ns
+  max: 661130ns
+
+Method: calculateTotal()
+  min: 16968ns
+  avg: 163583ns
+  max: 601987ns
+
+Method: lambda$1(..)
+  min: 2739ns
+  avg: 8822ns
+  max: 24911ns
+
+Method: setQuantity(..)
+  min: 29266ns
+  avg: 29266ns
+  max: 29266ns
+
+Method: setInStock(..)
+  min: 5441ns
+  avg: 5441ns
+  max: 5441ns
+
+Method: incrementQuantity()
+  min: 20034ns
+  avg: 23055ns
+  max: 26075ns
+
+Method: getItem()
+  min: 153ns
+  avg: 904ns
+  max: 18320ns
+
+Method: isInStock()
+  min: 1718ns
+  avg: 7016ns
+  max: 22262ns
+
+Method: getQuantity()
+  min: 382ns
+  avg: 1512ns
+  max: 7746ns
+
+Method: getTotal()
+  min: 994ns
+  avg: 2169ns
+  max: 5499ns
+
+Method: <init>()
+  min: 718ns
+  avg: 2396ns
+  max: 9145ns
+
+Method: initOrder(..)
+  min: 132162ns
+  avg: 415433ns
+  max: 940353ns
+
+Method: addLineItem(..)
+  min: 37326ns
+  avg: 255497ns
+  max: 662337ns
+
+Method: addLineItem(..)
+  min: 730ns
+  avg: 3108ns
+  max: 7727ns
+
+Method: getCardType()
+  min: 730ns
+  avg: 1610ns
+  max: 5455ns
+
+Method: getCreditCard()
+  min: 762ns
+  avg: 1797ns
+  max: 6369ns
+
+Method: getExpiryDate()
+  min: 369ns
+  avg: 1286ns
+  max: 5199ns
+
+Method: getBillToFirstName()
+  min: 564ns
+  avg: 1245ns
+  max: 4187ns
+
+Method: getBillToLastName()
+  min: 395ns
+  avg: 1117ns
+  max: 3834ns
+
+Method: getBillAddress1()
+  min: 435ns
+  avg: 1085ns
+  max: 3815ns
+
+Method: getBillAddress2()
+  min: 234ns
+  avg: 1034ns
+  max: 3918ns
+
+Method: getBillCity()
+  min: 426ns
+  avg: 1011ns
+  max: 3573ns
+
+Method: getBillState()
+  min: 410ns
+  avg: 964ns
+  max: 3814ns
+
+Method: getBillZip()
+  min: 459ns
+  avg: 1089ns
+  max: 3907ns
+
+Method: getBillCountry()
+  min: 281ns
+  avg: 878ns
+  max: 3826ns
+
+Method: setBillZip(..)
+  min: 664ns
+  avg: 3497ns
+  max: 9005ns
+
+Method: setBillCity(..)
+  min: 683ns
+  avg: 2259ns
+  max: 5292ns
+
+Method: setCardType(..)
+  min: 546ns
+  avg: 1977ns
+  max: 4613ns
+
+Method: setBillState(..)
+  min: 574ns
+  avg: 2082ns
+  max: 4833ns
+
+Method: setCreditCard(..)
+  min: 491ns
+  avg: 2056ns
+  max: 4983ns
+
+Method: setExpiryDate(..)
+  min: 423ns
+  avg: 1859ns
+  max: 4500ns
+
+Method: setBillCountry(..)
+  min: 682ns
+  avg: 1989ns
+  max: 4484ns
+
+Method: setBillAddress1(..)
+  min: 1452ns
+  avg: 2520ns
+  max: 4568ns
+
+Method: setBillAddress2(..)
+  min: 502ns
+  avg: 1934ns
+  max: 4548ns
+
+Method: setBillToLastName(..)
+  min: 490ns
+  avg: 1816ns
+  max: 4355ns
+
+Method: setBillToFirstName(..)
+  min: 776ns
+  avg: 2065ns
+  max: 4629ns
+
+Method: getOrderDate()
+  min: 492ns
+  avg: 1834ns
+  max: 8013ns
+
+Method: getShipToFirstName()
+  min: 484ns
+  avg: 2370ns
+  max: 7699ns
+
+Method: getShipToLastName()
+  min: 552ns
+  avg: 2311ns
+  max: 6668ns
+
+Method: getShipAddress1()
+  min: 483ns
+  avg: 2303ns
+  max: 6868ns
+
+Method: getShipAddress2()
+  min: 483ns
+  avg: 3697ns
+  max: 12786ns
+
+Method: getShipCity()
+  min: 459ns
+  avg: 1930ns
+  max: 5554ns
+
+Method: getShipState()
+  min: 430ns
+  avg: 1502ns
+  max: 4601ns
+
+Method: getShipZip()
+  min: 454ns
+  avg: 1332ns
+  max: 3743ns
+
+Method: getShipCountry()
+  min: 345ns
+  avg: 1177ns
+  max: 3555ns
+
+Method: setOrderId(..)
+  min: 718ns
+  avg: 2838ns
+  max: 7636ns
+
+Method: getLineItems()
+  min: 491ns
+  avg: 1205ns
+  max: 3487ns
+
+Method: getOrderId()
+  min: 666ns
+  avg: 2228ns
+  max: 8505ns
+
+Method: getUsername()
+  min: 697ns
+  avg: 2655ns
+  max: 4613ns
+
+Method: getCourier()
+  min: 481ns
+  avg: 3081ns
+  max: 7995ns
+
+Method: getTotalPrice()
+  min: 808ns
+  avg: 1679ns
+  max: 4377ns
+
+Method: getLocale()
+  min: 6374ns
+  avg: 6374ns
+  max: 6374ns
+
+Method: getStatus()
+  min: 525ns
+  avg: 2374ns
+  max: 5717ns
+
+Method: setShipAddress1(..)
+  min: 887ns
+  avg: 4503ns
+  max: 8119ns
+
+Method: setShipAddress2(..)
+  min: 577ns
+  avg: 3074ns
+  max: 5570ns
+
+Method: setShipCity(..)
+  min: 668ns
+  avg: 2630ns
+  max: 4592ns
+
+Method: setShipCountry(..)
+  min: 730ns
+  avg: 2623ns
+  max: 4516ns
+
+Method: setShipState(..)
+  min: 936ns
+  avg: 2451ns
+  max: 3965ns
+
+Method: setShipToFirstName(..)
+  min: 795ns
+  avg: 2521ns
+  max: 4247ns
+
+Method: setShipToLastName(..)
+  min: 632ns
+  avg: 7539ns
+  max: 14445ns
+
+Method: setShipZip(..)
+  min: 523ns
+  avg: 2342ns
+  max: 4161ns
+
+Method: setCourier(..)
+  min: 492ns
+  avg: 2513ns
+  max: 4533ns
+
+Method: setLocale(..)
+  min: 703ns
+  avg: 2582ns
+  max: 4461ns
+
+Method: setOrderDate(..)
+  min: 1517ns
+  avg: 3522ns
+  max: 5527ns
+
+Method: setTotalPrice(..)
+  min: 783ns
+  avg: 4564ns
+  max: 8345ns
+
+Method: setUsername(..)
+  min: 512ns
+  avg: 2899ns
+  max: 5286ns
+
+Method: setStatus(..)
+  min: 3456ns
+  avg: 3953ns
+  max: 4449ns
+
+Method: setLineItems(..)
+  min: 8065ns
+  avg: 8065ns
+  max: 8065ns
+
+Method: <init>()
+  min: 42516ns
+  avg: 42516ns
+  max: 42516ns
+
+Method: newOrderForm()
+  min: 171417ns
+  avg: 497294ns
+  max: 1095240ns
+
+Method: clear()
+  min: 6834ns
+  avg: 11400ns
+  max: 15825ns
+
+Method: getOrder()
+  min: 215ns
+  avg: 756ns
+  max: 17221ns
+
+Method: getCreditCardTypes()
+  min: 805ns
+  avg: 2577ns
+  max: 6056ns
+
+Method: isShippingAddressRequired()
+  min: 1293ns
+  avg: 3940ns
+  max: 8887ns
+
+Method: setShippingAddressRequired(..)
+  min: 11346ns
+  avg: 11346ns
+  max: 11346ns
+
+Method: newOrder()
+  min: 60127ns
+  avg: 65815643ns
+  max: 131571158ns
+
+Method: isConfirmed()
+  min: 1380ns
+  avg: 4073ns
+  max: 6766ns
+
+Method: setConfirmed(..)
+  min: 9921ns
+  avg: 9921ns
+  max: 9921ns
+
+Method: listOrders()
+  min: 1452730ns
+  avg: 4977974ns
+  max: 8503217ns
+
+Method: getOrderList()
+  min: 972ns
+  avg: 11260ns
+  max: 21547ns
+
+Method: setOrderId(..)
+  min: 23244ns
+  avg: 23244ns
+  max: 23244ns
+
+Method: viewOrder()
+  min: 106853062ns
+  avg: 106853062ns
+  max: 106853062ns
+
+Method: <init>(..)
+  min: 28460ns
+  avg: 230663ns
+  max: 606140ns
+
+Method: calculateTotal()
+  min: 6100ns
+  avg: 125442ns
+  max: 561416ns
+
+Method: lambda$1(..)
+  min: 2826ns
+  avg: 6696ns
+  max: 14721ns
+
+Method: getItemId()
+  min: 681ns
+  avg: 1414ns
+  max: 3170ns
+
+Method: getQuantity()
+  min: 908ns
+  avg: 1938ns
+  max: 4160ns
+
+Method: setOrderId(..)
+  min: 1703ns
+  avg: 3862ns
+  max: 6020ns
+
+Method: getOrderId()
+  min: 8929ns
+  avg: 8929ns
+  max: 8929ns
+
+Method: getLineNumber()
+  min: 6995ns
+  avg: 6995ns
+  max: 6995ns
+
+Method: getUnitPrice()
+  min: 713ns
+  avg: 1991ns
+  max: 4466ns
+
+Method: getItem()
+  min: 239ns
+  avg: 812ns
+  max: 8571ns
+
+Method: getTotal()
+  min: 797ns
+  avg: 2785ns
+  max: 4772ns
+
+Method: <init>()
+  min: 167801ns
+  avg: 167801ns
+  max: 167801ns
+
+Method: setLineNumber(..)
+  min: 7745ns
+  avg: 7745ns
+  max: 7745ns
+
+Method: setItemId(..)
+  min: 5495ns
+  avg: 5495ns
+  max: 5495ns
+
+Method: setQuantity(..)
+  min: 23185ns
+  avg: 23185ns
+  max: 23185ns
+
+Method: setUnitPrice(..)
+  min: 6755ns
+  avg: 6755ns
+  max: 6755ns
+
+Method: setItem(..)
+  min: 32382ns
+  avg: 32382ns
+  max: 32382ns
+
+Method: <init>(..)
+  min: 883ns
+  avg: 4175ns
+  max: 7467ns
+
+Method: getName()
+  min: 884ns
+  avg: 2744ns
+  max: 5965ns
+
+Method: <init>()
+  min: 5959ns
+  avg: 5959ns
+  max: 5959ns
+
+Method: setName(..)
+  min: 17765ns
+  avg: 17765ns
+  max: 17765ns
+
+Method: setNextId(..)
+  min: 7834ns
+  avg: 7834ns
+  max: 7834ns
+
+Method: getNextId()
+  min: 1945ns
+  avg: 4329ns
+  max: 8245ns
+

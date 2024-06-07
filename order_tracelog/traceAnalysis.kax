@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="platform:/resource/Kieker/model/AnalysisMetaModel.ecore" name="AnalysisProject">
+  <plugins xsi:type="Reader" name="FSReader-2" classname="kieker.analysis.plugin.reader.filesystem.FSReader" id="_ncc9wR-lEe-OL4oeWYYp_g">
+    <properties name="ignoreUnknownRecordTypes" value="true"/>
+    <properties name="inputDirs" value="/Users/fabiha/Documents/mono2micro/mono2micro/jpet-6-master/order_tracelog"/>
+    <outputPorts name="monitoringRecords" id="_nceL4B-lEe-OL4oeWYYp_g" subscribers="_ncey8h-lEe-OL4oeWYYp_g"/>
+  </plugins>
+  <plugins xsi:type="Filter" name="ThreadEvent2TraceEventFilter-3" classname="kieker.analysis.plugin.filter.flow.ThreadEvent2TraceEventFilter" id="_ncey8B-lEe-OL4oeWYYp_g">
+    <outputPorts name="defaultOutputPort" id="_ncey8R-lEe-OL4oeWYYp_g" subscribers="_ncey-B-lEe-OL4oeWYYp_g _ncey9x-lEe-OL4oeWYYp_g"/>
+    <inputPorts name="defaultInputPort" id="_ncey8h-lEe-OL4oeWYYp_g"/>
+  </plugins>
+  <plugins xsi:type="Filter" name="TimestampFilter-4" classname="kieker.analysis.plugin.filter.select.TimestampFilter" id="_ncey8x-lEe-OL4oeWYYp_g">
+    <properties name="timeunit" value="NANOSECONDS"/>
+    <properties name="ignoreAfterTimestamp" value="9223372036854775807"/>
+    <properties name="ignoreBeforeTimestamp" value="0"/>
+    <outputPorts name="recordsWithinTimePeriod" id="_ncey9B-lEe-OL4oeWYYp_g" subscribers="_ncfaAR-lEe-OL4oeWYYp_g"/>
+    <outputPorts name="recordsOutsidePeriod" id="_ncey9R-lEe-OL4oeWYYp_g"/>
+    <inputPorts name="monitoringRecordsCombined" id="_ncey9h-lEe-OL4oeWYYp_g"/>
+    <inputPorts name="monitoringRecordsFlow" id="_ncey9x-lEe-OL4oeWYYp_g"/>
+    <inputPorts name="monitoringRecordsExecution" id="_ncey-B-lEe-OL4oeWYYp_g"/>
+    <inputPorts name="monitoringRecordsAny" id="_ncey-R-lEe-OL4oeWYYp_g"/>
+  </plugins>
+  <plugins xsi:type="Filter" name="TraceIdFilter-5" classname="kieker.analysis.plugin.filter.select.TraceIdFilter" id="_ncey-h-lEe-OL4oeWYYp_g">
+    <properties name="selectedTraceIds" value=""/>
+    <properties name="acceptAllTraces" value="true"/>
+    <outputPorts name="recordsMatchingId" id="_ncey-x-lEe-OL4oeWYYp_g" subscribers="_ncfaBx-lEe-OL4oeWYYp_g _ncfaEh-lEe-OL4oeWYYp_g"/>
+    <outputPorts name="recordsNotMatchingId" id="_ncfaAB-lEe-OL4oeWYYp_g"/>
+    <inputPorts name="monitoringRecordsCombined" id="_ncfaAR-lEe-OL4oeWYYp_g"/>
+    <inputPorts name="monitoringRecordsFlow" id="_ncfaAh-lEe-OL4oeWYYp_g"/>
+    <inputPorts name="monitoringRecordsExecution" id="_ncfaAx-lEe-OL4oeWYYp_g"/>
+  </plugins>
+  <plugins xsi:type="Filter" name="Execution record transformation" classname="kieker.tools.trace.analysis.filter.executionRecordTransformation.ExecutionRecordTransformationFilter" id="_ncfaBB-lEe-OL4oeWYYp_g">
+    <repositories name="systemModelRepository" repository="_ncc9wB-lEe-OL4oeWYYp_g" id="_ncfaBR-lEe-OL4oeWYYp_g"/>
+    <outputPorts name="transformedExecutions" id="_ncfaBh-lEe-OL4oeWYYp_g" subscribers="_ncfaDR-lEe-OL4oeWYYp_g"/>
+    <inputPorts name="operationExecutionRecords" id="_ncfaBx-lEe-OL4oeWYYp_g"/>
+  </plugins>
+  <plugins xsi:type="Filter" name="Trace reconstruction (execution records -> execution traces)" classname="kieker.tools.trace.analysis.filter.traceReconstruction.TraceReconstructionFilter" id="_ncfaCB-lEe-OL4oeWYYp_g">
+    <properties name="timeunit" value="NANOSECONDS"/>
+    <properties name="ignoreInvalidTraces" value="false"/>
+    <properties name="maxTraceDuration" value="600000000000"/>
+    <repositories name="systemModelRepository" repository="_ncc9wB-lEe-OL4oeWYYp_g" id="_ncfaCR-lEe-OL4oeWYYp_g"/>
+    <outputPorts name="messageTraces" id="_ncfaCh-lEe-OL4oeWYYp_g" subscribers="_ncgBFh-lEe-OL4oeWYYp_g"/>
+    <outputPorts name="executionTraces" id="_ncfaCx-lEe-OL4oeWYYp_g"/>
+    <outputPorts name="invalidExecutionTraces" id="_ncfaDB-lEe-OL4oeWYYp_g"/>
+    <inputPorts name="executions" id="_ncfaDR-lEe-OL4oeWYYp_g"/>
+  </plugins>
+  <plugins xsi:type="Filter" name="Trace reconstruction (trace event records -> event record traces)" classname="kieker.analysis.plugin.filter.flow.EventRecordTraceReconstructionFilter" id="_ncfaDh-lEe-OL4oeWYYp_g">
+    <properties name="timeunit" value="NANOSECONDS"/>
+    <properties name="maxTraceTimeout" value="9223372036854775807"/>
+    <properties name="repairEventBasedTraces" value="false"/>
+    <properties name="maxTraceDuration" value="600000000000"/>
+    <outputPorts name="validTraces" id="_ncfaDx-lEe-OL4oeWYYp_g" subscribers="_ncfaFR-lEe-OL4oeWYYp_g _ncgBEh-lEe-OL4oeWYYp_g"/>
+    <outputPorts name="invalidTraces" id="_ncfaEB-lEe-OL4oeWYYp_g" subscribers="_ncfaFh-lEe-OL4oeWYYp_g"/>
+    <inputPorts name="timestamps" id="_ncfaER-lEe-OL4oeWYYp_g"/>
+    <inputPorts name="traceRecords" id="_ncfaEh-lEe-OL4oeWYYp_g"/>
+    <inputPorts name="traceEventRecords" id="_ncfaEx-lEe-OL4oeWYYp_g"/>
+  </plugins>
+  <plugins xsi:type="Filter" name="Trace reconstruction (event records -> event record traces)" classname="kieker.tools.trace.analysis.filter.flow.EventRecordTraceCounter" id="_ncfaFB-lEe-OL4oeWYYp_g">
+    <properties name="logInvalidTraces" value="true"/>
+    <inputPorts name="validEventRecordTraces" id="_ncfaFR-lEe-OL4oeWYYp_g"/>
+    <inputPorts name="invalidEventRecordTraces" id="_ncfaFh-lEe-OL4oeWYYp_g"/>
+  </plugins>
+  <plugins xsi:type="Filter" name="Trace reconstruction (event record traces -> execution traces)" classname="kieker.tools.trace.analysis.filter.flow.TraceEventRecords2ExecutionAndMessageTraceFilter" id="_ncfaFx-lEe-OL4oeWYYp_g">
+    <properties name="enhanceJavaConstructors" value="true"/>
+    <properties name="enhanceCallDetection" value="true"/>
+    <properties name="ignoreAssumed" value="false"/>
+    <repositories name="systemModelRepository" repository="_ncc9wB-lEe-OL4oeWYYp_g" id="_ncfaGB-lEe-OL4oeWYYp_g"/>
+    <outputPorts name="executionTrace" id="_ncfaGR-lEe-OL4oeWYYp_g"/>
+    <outputPorts name="messageTrace" id="_ncgBEB-lEe-OL4oeWYYp_g" subscribers="_ncgBFh-lEe-OL4oeWYYp_g"/>
+    <outputPorts name="invalidTrace" id="_ncgBER-lEe-OL4oeWYYp_g"/>
+    <inputPorts name="traceEvents" id="_ncgBEh-lEe-OL4oeWYYp_g"/>
+  </plugins>
+  <plugins xsi:type="Filter" name="OperationDependencyGraphAssemblyFilter-6" classname="kieker.tools.trace.analysis.filter.visualization.dependencyGraph.OperationDependencyGraphAssemblyFilter" id="_ncgBEx-lEe-OL4oeWYYp_g">
+    <repositories name="systemModelRepository" repository="_ncc9wB-lEe-OL4oeWYYp_g" id="_ncgBFB-lEe-OL4oeWYYp_g"/>
+    <outputPorts name="graphs" id="_ncgBFR-lEe-OL4oeWYYp_g" subscribers="_ncgBGB-lEe-OL4oeWYYp_g"/>
+    <inputPorts name="messageTraces" id="_ncgBFh-lEe-OL4oeWYYp_g"/>
+  </plugins>
+  <plugins xsi:type="Filter" name="Operation dependency graph (assembly level)" classname="kieker.tools.trace.analysis.filter.visualization.GraphWriterPlugin" id="_ncgBFx-lEe-OL4oeWYYp_g">
+    <properties name="outputPath" value="order_tracelog/"/>
+    <properties name="shortLabels" value="false"/>
+    <properties name="selfLoops" value="false"/>
+    <properties name="includeWeights" value="true"/>
+    <properties name="dotOutputFn" value=""/>
+    <inputPorts name="inputGraph" id="_ncgBGB-lEe-OL4oeWYYp_g"/>
+  </plugins>
+  <plugins xsi:type="Filter" name="SystemModel2FileFilter-7" classname="kieker.tools.trace.analysis.filter.systemModel.SystemModel2FileFilter" id="_ncgBGR-lEe-OL4oeWYYp_g">
+    <properties name="outputFnHtml" value="order_tracelog/system-entities.html"/>
+    <repositories name="systemModelRepository" repository="_ncc9wB-lEe-OL4oeWYYp_g" id="_ncgBGh-lEe-OL4oeWYYp_g"/>
+  </plugins>
+  <repositories classname="kieker.tools.trace.analysis.systemModel.repository.SystemModelRepository" id="_ncc9wB-lEe-OL4oeWYYp_g"/>
+</Project>

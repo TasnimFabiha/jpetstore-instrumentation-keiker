@@ -1,0 +1,332 @@
+Total number of methods in the dot file are:66Extracted Methods:
+
+Method: <init>(..)
+  min: 11667ns
+  avg: 11667ns
+  max: 11667ns
+
+Method: getAccount(..)
+  min: 44647194ns
+  avg: 44647194ns
+  max: 44647194ns
+
+Method: <init>(..)
+  min: 12471ns
+  avg: 12471ns
+  max: 12471ns
+
+Method: getProductListByCategory(..)
+  min: 3818210ns
+  avg: 3818210ns
+  max: 3818210ns
+
+Method: <init>(..)
+  min: 14764ns
+  avg: 14764ns
+  max: 14764ns
+
+Method: <init>()
+  min: 2408ns
+  avg: 8218ns
+  max: 14710ns
+
+Method: getContext()
+  min: 464ns
+  avg: 1276ns
+  max: 8292ns
+
+Method: setContext(..)
+  min: 866ns
+  avg: 2203ns
+  max: 6280ns
+
+Method: <init>()
+  min: 1329ns
+  avg: 3664ns
+  max: 5999ns
+
+Method: viewMain()
+  min: 2104ns
+  avg: 55237ns
+  max: 361110ns
+
+Method: getKeyword()
+  min: 919ns
+  avg: 1974ns
+  max: 6368ns
+
+Method: <init>()
+  min: 2201ns
+  avg: 3707ns
+  max: 6239ns
+
+Method: getUsername()
+  min: 577ns
+  avg: 1526ns
+  max: 7576ns
+
+Method: setPassword(..)
+  min: 1698ns
+  avg: 4161ns
+  max: 6624ns
+
+Method: setUsername(..)
+  min: 1909ns
+  avg: 3750ns
+  max: 5590ns
+
+Method: getPassword()
+  min: 1011ns
+  avg: 2812ns
+  max: 4612ns
+
+Method: setEmail(..)
+  min: 10169ns
+  avg: 10169ns
+  max: 10169ns
+
+Method: setFirstName(..)
+  min: 7331ns
+  avg: 7331ns
+  max: 7331ns
+
+Method: setLastName(..)
+  min: 7161ns
+  avg: 7161ns
+  max: 7161ns
+
+Method: setStatus(..)
+  min: 10986ns
+  avg: 10986ns
+  max: 10986ns
+
+Method: setAddress1(..)
+  min: 5828ns
+  avg: 5828ns
+  max: 5828ns
+
+Method: setAddress2(..)
+  min: 6393ns
+  avg: 6393ns
+  max: 6393ns
+
+Method: setCity(..)
+  min: 6112ns
+  avg: 6112ns
+  max: 6112ns
+
+Method: setState(..)
+  min: 7600ns
+  avg: 7600ns
+  max: 7600ns
+
+Method: setZip(..)
+  min: 9431ns
+  avg: 9431ns
+  max: 9431ns
+
+Method: setCountry(..)
+  min: 7890ns
+  avg: 7890ns
+  max: 7890ns
+
+Method: setPhone(..)
+  min: 7166ns
+  avg: 7166ns
+  max: 7166ns
+
+Method: setLanguagePreference(..)
+  min: 30121ns
+  avg: 30121ns
+  max: 30121ns
+
+Method: setFavouriteCategoryId(..)
+  min: 5404ns
+  avg: 5404ns
+  max: 5404ns
+
+Method: setListOption(..)
+  min: 28739ns
+  avg: 28739ns
+  max: 28739ns
+
+Method: setBannerOption(..)
+  min: 18929ns
+  avg: 18929ns
+  max: 18929ns
+
+Method: setBannerName(..)
+  min: 8577ns
+  avg: 8577ns
+  max: 8577ns
+
+Method: getFavouriteCategoryId()
+  min: 794ns
+  avg: 3364ns
+  max: 5933ns
+
+Method: getFirstName()
+  min: 684ns
+  avg: 2982ns
+  max: 8951ns
+
+Method: isBannerOption()
+  min: 976ns
+  avg: 3060ns
+  max: 9719ns
+
+Method: getBannerName()
+  min: 683ns
+  avg: 1910ns
+  max: 5297ns
+
+Method: getLastName()
+  min: 7559ns
+  avg: 7559ns
+  max: 7559ns
+
+Method: getEmail()
+  min: 5647ns
+  avg: 5647ns
+  max: 5647ns
+
+Method: getPhone()
+  min: 5818ns
+  avg: 5818ns
+  max: 5818ns
+
+Method: getAddress1()
+  min: 5249ns
+  avg: 5249ns
+  max: 5249ns
+
+Method: getAddress2()
+  min: 4950ns
+  avg: 4950ns
+  max: 4950ns
+
+Method: getCity()
+  min: 5968ns
+  avg: 5968ns
+  max: 5968ns
+
+Method: getState()
+  min: 5775ns
+  avg: 5775ns
+  max: 5775ns
+
+Method: getZip()
+  min: 5574ns
+  avg: 5574ns
+  max: 5574ns
+
+Method: getCountry()
+  min: 8332ns
+  avg: 8332ns
+  max: 8332ns
+
+Method: getLanguagePreference()
+  min: 5300ns
+  avg: 5300ns
+  max: 5300ns
+
+Method: isListOption()
+  min: 17841ns
+  avg: 17841ns
+  max: 17841ns
+
+Method: <init>()
+  min: 77330ns
+  avg: 77330ns
+  max: 77330ns
+
+Method: signonForm()
+  min: 14325ns
+  avg: 14325ns
+  max: 14325ns
+
+Method: getUsername()
+  min: 27754ns
+  avg: 36997ns
+  max: 54946ns
+
+Method: setPassword(..)
+  min: 54305ns
+  avg: 54305ns
+  max: 54305ns
+
+Method: setUsername(..)
+  min: 38444ns
+  avg: 38444ns
+  max: 38444ns
+
+Method: signon()
+  min: 89832120ns
+  avg: 89832120ns
+  max: 89832120ns
+
+Method: getPassword()
+  min: 26953ns
+  avg: 97536ns
+  max: 168118ns
+
+Method: isAuthenticated()
+  min: 9394ns
+  avg: 143647ns
+  max: 1007083ns
+
+Method: getAccount()
+  min: 460ns
+  avg: 1091ns
+  max: 5594ns
+
+Method: editAccountForm()
+  min: 14808ns
+  avg: 14808ns
+  max: 14808ns
+
+Method: getLanguages()
+  min: 6448ns
+  avg: 6448ns
+  max: 6448ns
+
+Method: getCategories()
+  min: 7567ns
+  avg: 7567ns
+  max: 7567ns
+
+Method: signoff()
+  min: 7514990ns
+  avg: 7514990ns
+  max: 7514990ns
+
+Method: clear()
+  min: 107338ns
+  avg: 107338ns
+  max: 107338ns
+
+Method: <init>()
+  min: 743ns
+  avg: 1723ns
+  max: 4638ns
+
+Method: setProductId(..)
+  min: 1109ns
+  avg: 2442ns
+  max: 8161ns
+
+Method: setName(..)
+  min: 923ns
+  avg: 1966ns
+  max: 6710ns
+
+Method: setDescription(..)
+  min: 936ns
+  avg: 1887ns
+  max: 6442ns
+
+Method: setCategoryId(..)
+  min: 828ns
+  avg: 2930ns
+  max: 7214ns
+
