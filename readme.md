@@ -1,5 +1,5 @@
 
-# 🐾 JPetStore + Kieker Instrumentation for Trace Analysis
+# JPetStore + Kieker Instrumentation for Trace Analysis
 
 This project demonstrates how to instrument and analyze the original MyBatis JPetStore (`jpetstore-6`) using [Kieker Monitoring](https://kieker-monitoring.readthedocs.io/en/latest/). It follows the official [Kieker Trace Analysis Tutorial](https://kieker-monitoring.readthedocs.io/en/latest/tutorials/How-to-perform-Trace-Analysis.html) with adjustments to use the vanilla JPetStore and fix compatibility issues.
 
